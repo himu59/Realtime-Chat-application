@@ -1,0 +1,45 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Baloo 2', cursive;
+  }
+
+  #message-container {
+    width: 80%;
+    max-width: 1200px;
+  }
+
+  #message-container div {
+    background-color: burlywood;
+    padding: 5px;
+  }
+
+  #message-container div:nth-child(2n) {
+    background-color: #FFF;
+  }
+
+  #send-container {
+    position: fixed;
+    padding-bottom: 20px;
+    bottom: 0;
+    background-color: white;
+    max-width: 1200px;
+    width: 80%;
+    display: flex;
+  }
+
+  #message-input {
+    margin-bottom: 5px;
+    flex-grow: 1;
+    padding: 10px;
+    border: 2px solid black;
+  }
+  #send-button {
+    margin-left: 2px;
+    background-color: darkgrey;
+    cursor: pointer;
+    font-family: 'Baloo 2', cursive;
+    border: 2px solid black;
+  }
